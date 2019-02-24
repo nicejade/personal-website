@@ -7,6 +7,8 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+googleAnalyticsID: 'UA-86109050-6' # Google Analytics ID
+
 defaults:
   -
     scope:
