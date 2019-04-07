@@ -29,11 +29,11 @@ topics:
   - name: Lua
     web_url: https://github.com/topics/lua
     image_url: https://raw.githubusercontent.com/github/explore/be752a07bff3189f84c510826af5b75c97eaaeb2/topics/lua/lua.png
-  
+
   - name: HTML
     web_url: https://github.com/topics/html
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
-  
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
@@ -49,7 +49,7 @@ topics:
   - name: React
     web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
-  
+
   - name: PWA
     web_url: https://github.com/topics/pwa
     image_url: https://raw.githubusercontent.com/github/explore/698c66928eddcc6ad969b94912d7727c10229593/topics/pwa/pwa.png
@@ -60,11 +60,11 @@ topics:
 
   - name: 快应用
     web_url: https://github.com/topics/quickapp
-    image_url: 
-  
+    image_url: https://raw.githubusercontent.com/nicejade/awesome-quickapp/master/resources/images/quickapp.png
+
   - name: 微信小程序
     web_url: https://github.com/topics/wechat-mini-program
-    image_url: 
+    image_url: https://user-images.githubusercontent.com/15773463/55686187-9c107e00-5990-11e9-9f50-5c6643fa1471.png
 
   - name: Less
     web_url: https://github.com/topics/less
@@ -76,7 +76,7 @@ topics:
 
   - name: Stylus
     web_url: https://github.com/topics/stylus
-    image_url: 
+    image_url: https://user-images.githubusercontent.com/15773463/55686207-e09c1980-5990-11e9-877d-8b0e881c5978.png
 
   - name: Webpack
     web_url: https://github.com/topics/webpack
@@ -84,7 +84,7 @@ topics:
 
   - name: Rollup
     web_url: https://github.com/topics/rollup
-    image_url: 
+    image_url: https://www.rollupjs.com/logo.svg
 
   - name: Gulp
     web_url: https://github.com/topics/gulp
@@ -96,7 +96,7 @@ topics:
 
   - name: Yarn
     web_url: https://github.com/topics/yarn
-    image_url: 
+    image_url: https://user-images.githubusercontent.com/15773463/55686257-73d54f00-5991-11e9-8095-7a373218f283.png
 
   - name: Git
     web_url: https://github.com/topics/git
