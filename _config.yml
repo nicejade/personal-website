@@ -64,7 +64,7 @@ topics:
 
   - name: 微信小程序
     web_url: https://github.com/topics/wechat-mini-program
-    image_url: https://user-images.githubusercontent.com/15773463/55686187-9c107e00-5990-11e9-9f50-5c6643fa1471.png
+    image_url: https://raw.githubusercontent.com/nicejade/personal-website/master/assets/images/wechat-miniprogam.png
 
   - name: Less
     web_url: https://github.com/topics/less
@@ -76,7 +76,7 @@ topics:
 
   - name: Stylus
     web_url: https://github.com/topics/stylus
-    image_url: https://user-images.githubusercontent.com/15773463/55686207-e09c1980-5990-11e9-877d-8b0e881c5978.png
+    image_url: https://raw.githubusercontent.com/nicejade/personal-website/master/assets/images/stylus-logo.png
 
   - name: Webpack
     web_url: https://github.com/topics/webpack
@@ -96,7 +96,7 @@ topics:
 
   - name: Yarn
     web_url: https://github.com/topics/yarn
-    image_url: https://user-images.githubusercontent.com/15773463/55686257-73d54f00-5991-11e9-8095-7a373218f283.png
+    image_url: https://raw.githubusercontent.com/nicejade/personal-website/master/assets/images/yarn-kitten-full.png
 
   - name: Git
     web_url: https://github.com/topics/git
