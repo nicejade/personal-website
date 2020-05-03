@@ -2,7 +2,7 @@ name: GitHub Actions Build and Deploy
 on:
   push:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 1 * * *'
 
 jobs:
   build-and-deploy:
@@ -21,3 +21,5 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: master
+      run: |
+        git add . && git commit -m "🚀 update content" && git push git@github.com:nicejade/personal-website.git
