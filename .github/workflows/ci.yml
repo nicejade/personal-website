@@ -6,10 +6,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Install and Build
-      run: |
-        gem install jekyll bundler
-        bundle exec jekyll serve
+    - name: Build
+      run: bundle exec jekyll serve
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
