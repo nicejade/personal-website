@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Build
-      run: bundle exec jekyll serve
+      run: jekyll serve
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
