@@ -6,8 +6,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Build
-      run: jekyll serve
     - name: Deploy
       uses: joshlarsen/jekyll4-deploy-gh-pages@master
       with:
