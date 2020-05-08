@@ -2,14 +2,15 @@ on:
   schedule:
     - cron: '0 23 * * *'
 
-jobs:
-  build-and-deploy:
+jobs: 
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy
-      uses: joshlarsen/jekyll4-deploy-gh-pages@master
-      with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-        GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-        BRANCH: master
+      - uses: actions/checkout@v1
+      - name: Build & Deploy to GitHub Pages
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+        uses: BryanSchuetz/jekyll-deploy-gh-pages@master
+
