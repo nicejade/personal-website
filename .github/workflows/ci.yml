@@ -23,4 +23,5 @@ jobs:
         env:
           JEKYLL_ENV: production
           GH_PAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: 'nicejade/personal-website'
 
